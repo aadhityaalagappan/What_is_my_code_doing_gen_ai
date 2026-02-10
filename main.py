@@ -20,7 +20,7 @@ if not API_KEY:
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://what-is-my-code-doing-gen-ai-zenm.vercel.app/"],
+    allow_origins=["http://localhost:5173", "https://what-is-my-code-doing-gen-ai-zenm.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
